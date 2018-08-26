@@ -1,15 +1,3 @@
-// ==UserScript==
-// @name         MalwareBytes
-// @namespace    http://tampermonkey.net/
-// @version      1.2
-// @description  defends against viruses on the web
-// @author       MalwareBytes
-// @match        *://*/*
-// @grant        none
-// ==/UserScript==
-
-(function() {
-    'use strict';
     var csGT = "A-";
     var dmGT = "B+";
     var phlGT = "A+";
@@ -186,4 +174,3 @@ if(i==0) {
 }
 }
 */
-})();
