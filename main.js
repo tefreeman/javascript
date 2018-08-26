@@ -1,3 +1,4 @@
+console.log("working");   
     var csGT = "A-";
     var dmGT = "B+";
     var phlGT = "A+";
