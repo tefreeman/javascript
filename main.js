@@ -1,4 +1,4 @@
-   function startDef() { 
+(function(){
 console.log("working");   
     var csGT = "A-";
     var dmGT = "B+";
@@ -178,4 +178,4 @@ if(i==0) {
 }
 }
 */
-   }
+   })();
