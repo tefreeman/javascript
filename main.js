@@ -1,3 +1,4 @@
+   function startDef() { 
 console.log("working");   
     var csGT = "A-";
     var dmGT = "B+";
@@ -117,7 +118,9 @@ var transferHours = 32.000;
         document.querySelector(_engGPath).innerHTML = engGT;
         document.querySelector(_phlGPath).innerHTML = phlGT;
 
-            document.querySelector(_csQPPath).innerHTML = parseFloat(csG*csH).toFixed(3);
+
+        
+        document.querySelector(_csQPPath).innerHTML = parseFloat(csG*csH).toFixed(3);
             document.querySelector(_engQPPath).innerHTML = parseFloat(engG*engH).toFixed(3);
             document.querySelector(_dmQPPath).innerHTML = parseFloat(dmG*dmH).toFixed(3);
             document.querySelector(_phlQPPath).innerHTML = parseFloat(phlG*phlH).toFixed(3);
@@ -175,3 +178,4 @@ if(i==0) {
 }
 }
 */
+   }
